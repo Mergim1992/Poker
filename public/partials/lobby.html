@@ -2,10 +2,10 @@
 	<div class="modal-wrap" ng-show="!$root.screenName">
 		<div class="modal">
 			<form ng-submit="register()">
-				<label for="screen-name-input">Enter your screen name</label>
+				<label for="screen-name-input">PokerStar Nickname</label>
 				<p class="table-requirements error" ng-show="registerError">{{registerError}}</p>
 				<input id="screen-name-input" class="input-left" type="text" ng-model="newScreenName" ng-trim="true" required>
-				<input type="submit" value="Submit">
+				<input type="submit" value="Es kann losgehen!">
 			</form>
 		</div>
 		<div id="curtain" ng-show="!$root.screenName"></div>
